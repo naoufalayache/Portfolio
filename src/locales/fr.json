@@ -4,6 +4,14 @@
       "title_line1": "Je conçois des",
       "title_line2": "applications web",
       "title_highlight": "modernes."
+    },
+    "actions": {
+      "projet": "VOIR MES PROJETS",
+      "CV": "TÉLÉCHARGER MON CV"
+    },
+    "hero_right": {
+      "line1": "DISPONIBLE POUR",
+      "line2": "DE NOUVEAUX PROJETS"
     }
   }
 }

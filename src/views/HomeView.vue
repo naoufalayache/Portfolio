@@ -13,9 +13,13 @@
         </h1>
 
         <div class="actions">
-          <RouterLink to="/projects" class="primary-button"> VOIR MES PROJETS ↗ </RouterLink>
+          <RouterLink to="/projects" class="primary-button">
+            {{ $t('home.actions.projet') }} ↗
+          </RouterLink>
 
-          <a href="/cv.pdf" target="_blank" class="secondary-button"> TÉLÉCHARGER CV ↓ </a>
+          <a href="/cv.pdf" target="_blank" class="secondary-button">
+            {{ $t('home.actions.CV') }} ↓
+          </a>
         </div>
       </div>
 
@@ -29,9 +33,9 @@
 
         <div class="availability">
           <span class="dot"></span>
-          DISPONIBLE POUR
+          {{ $t('home.hero_right.line1') }}
           <br />
-          DE NOUVEAUX PROJETS
+          {{ $t('home.hero_right.line2') }}
         </div>
 
         <div class="location">LYON, FRANCE</div>

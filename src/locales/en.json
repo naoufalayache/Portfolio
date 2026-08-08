@@ -4,6 +4,14 @@
       "title_line1": "I design",
       "title_line2": "modern web",
       "title_highlight": "applications."
+    },
+    "actions": {
+      "projet": "SEE MY PROJECTS",
+      "CV": "DOWNLOAD MY RESUME"
+    },
+    "hero_right": {
+      "line1": "READY FOR",
+      "line2": "NEW PROJECTS"
     }
   }
 }
