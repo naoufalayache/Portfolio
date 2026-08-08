@@ -12,6 +12,10 @@
           <span>{{ $t('home.hero.title_highlight') }}</span>
         </h1>
 
+        <RouterLink to="/aboutMe" class="subtitle">
+          {{ $t('home.hero.aboutMe') }}
+        </RouterLink>
+
         <div class="actions">
           <RouterLink to="/projects" class="primary-button">
             {{ $t('home.actions.projet') }}

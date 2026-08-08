@@ -157,3 +157,28 @@ h1 span {
 .actionsLogo {
   margin-left: 6px;
 }
+
+.subtitle {
+  display: none;
+  margin-top: 10px;
+  font-style: italic;
+}
+
+@media (max-width: 768px) {
+  .marker-circle {
+    display: none;
+  }
+
+  .subtitle {
+    display: inline;
+  }
+
+  .hero {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-marker,
+  .hero-right {
+    display: none;
+  }
+}
