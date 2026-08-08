@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { RouterLink } from 'vue-router'
+import LangSwitcher from './LangSwitcher.vue'
 </script>
 
 <template>
@@ -11,7 +12,8 @@ import { RouterLink } from 'vue-router'
       <RouterLink to="/AboutMe">A PROPOS DE MOI</RouterLink>
       <RouterLink to="/projects">PROJETS</RouterLink>
       <RouterLink to="/experience">EXPÉRIENCE</RouterLink>
-      <RouterLink to="/contact">CONTACT</RouterLink>
+      <RouterLink to="/contacts">CONTACT</RouterLink>
+      <LangSwitcher />
     </nav>
   </header>
 </template>
@@ -42,18 +44,10 @@ import { RouterLink } from 'vue-router'
 .navigation {
   display: flex;
   gap: 32px;
-
+  align-items: center;
   font-size: 0.75rem;
   font-weight: 600;
   letter-spacing: 0.05em;
-}
-
-.navigation a {
-  position: relative;
-}
-
-.navigation a:hover {
-  color: var(--crimson);
 }
 
 .navigation .router-link-active {

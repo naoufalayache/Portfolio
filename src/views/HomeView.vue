@@ -5,11 +5,11 @@
         <span class="eyebrow">FULL-STACK DEVELOPER</span>
 
         <h1>
-          Je conçois des
+          {{ $t('home.hero.title_line1') }}
           <br />
-          applications web
+          {{ $t('home.hero.title_line2') }}
           <br />
-          <span>modernes.</span>
+          <span>{{ $t('home.hero.title_highlight') }}</span>
         </h1>
 
         <div class="actions">
