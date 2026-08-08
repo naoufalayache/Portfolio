@@ -14,11 +14,12 @@
 
         <div class="actions">
           <RouterLink to="/projects" class="primary-button">
-            {{ $t('home.actions.projet') }} ↗
+            {{ $t('home.actions.projet') }}
+            <i class="fa-solid fa-arrow-up-right-from-square actionsLogo"></i>
           </RouterLink>
 
           <a href="/cv.pdf" target="_blank" class="secondary-button">
-            {{ $t('home.actions.CV') }} ↓
+            {{ $t('home.actions.CV') }} <i class="fa-solid fa-arrow-down actionsLogo"></i>
           </a>
         </div>
       </div>
@@ -38,7 +39,7 @@
           {{ $t('home.hero_right.line2') }}
         </div>
 
-        <div class="location">LYON, FRANCE</div>
+        <div class="location"><i class="fa-solid fa-location-dot"></i>LYON, FRANCE</div>
       </div>
     </div>
   </section>
