@@ -1,48 +1,115 @@
-# Porfolio
+# Portfolio — Naoufal Ayache
 
-This template should help get you started developing with Vue 3 in Vite.
+Portfolio personnel présentant mon parcours, mes compétences, mes expériences professionnelles et mes différents projets en tant que développeur Full-Stack.
 
-## Recommended IDE Setup
+## Technologies
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+Le portfolio est développé avec :
 
-## Recommended Browser Setup
+- Vue 3
+- TypeScript
+- Vite
+- Vue Router
+- Vue I18n
+- Font Awesome
+- CSS
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+## Structure du projet
 
-## Type Support for `.vue` Imports in TS
+```text
+src/
+├── assets/          # Styles et ressources
+├── components/      # Composants Vue réutilisables
+├── locales/         # Traductions FR / EN
+├── router/          # Configuration Vue Router
+├── views/           # Pages du portfolio
+├── App.vue
+└── main.ts
+```
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+## Fonctionnalités
 
-## Customize configuration
+- Interface responsive
+- Navigation desktop et mobile
+- Menu burger sur mobile
+- Support du français et de l'anglais
+- Présentation de mon parcours professionnel
+- Présentation de mes projets
+- Téléchargement de mon CV
+- Design personnalisé
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+## Installation
 
-## Project Setup
+Cloner le repository :
 
-```sh
+```bash
+git clone git@github.com:naoufalayache/Portfolio.git
+```
+
+Accéder au projet :
+
+```bash
+cd Portfolio
+```
+
+Installer les dépendances :
+
+```bash
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+Lancer le serveur de développement :
 
-```sh
+```bash
 npm run dev
 ```
 
-### Type-Check, Compile and Minify for Production
+## Build
 
-```sh
+Générer la version de production :
+
+```bash
 npm run build
 ```
 
-### Lint with [ESLint](https://eslint.org/)
+Les fichiers générés seront disponibles dans :
 
-```sh
+```text
+dist/
+```
+
+Prévisualiser le build :
+
+```bash
+npm run preview
+```
+
+## Qualité du code
+
+Lancer le lint :
+
+```bash
 npm run lint
 ```
+
+Vérifier les types TypeScript :
+
+```bash
+npm run type-check
+```
+
+Formatter le code :
+
+```bash
+npm run format
+```
+
+## Auteur
+
+**Naoufal Ayache**
+
+Développeur Full-Stack basé à Lyon, France.
+
+---
+
+Built with Vue.js.
