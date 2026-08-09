@@ -67,7 +67,4 @@
     </filter>
   </svg>
 </template>
-
-<script>
-import '@/assets/css/HomeView.css'
-</script>
+<style scoped src="@/assets/css/HomeView.css"></style>

@@ -48,7 +48,7 @@ function setLocale(lang) {
   background: none;
   border: none;
   cursor: pointer;
-  color: var(--ink);
+  color: var(--black);
   opacity: 0.4;
   padding: 4px;
 }

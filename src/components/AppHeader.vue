@@ -2,7 +2,6 @@
 import { ref } from 'vue'
 import { RouterLink } from 'vue-router'
 import LangSwitcher from './LangSwitcher.vue'
-import '@/assets/css/AppHeader.css'
 
 const menuOpen = ref(false)
 
@@ -14,6 +13,7 @@ const closeMenu = () => {
   menuOpen.value = false
 }
 </script>
+<style scoped src="@/assets/css/AppHeader.css"></style>
 <template>
   <header class="header">
     <RouterLink to="/" class="logo" @click="closeMenu"> NAOUFAL <span>AYACHE</span> </RouterLink>

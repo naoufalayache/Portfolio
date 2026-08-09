@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import '@/assets/css/Projects.css'
-
 import ProjectCard from '@/components/ProjectCard.vue'
 
 import sncfImage from '@/assets/images/SNCF.webp'
@@ -11,10 +9,8 @@ import agricultureImage from '@/assets/images/agriculture.webp'
 <template>
   <section class="projects">
     <div class="projects__intro">
-      <h2>
-        {{ $t('projects.title_line1') }}
-        <br />
-        {{ $t('projects.title_line2') }}
+      <h2 class="projects__title">
+        {{ $t('projects.title_line1') }} {{ $t('projects.title_line2') }}
         <span>.</span>
       </h2>
 
@@ -52,3 +48,4 @@ import agricultureImage from '@/assets/images/agriculture.webp'
     </div>
   </section>
 </template>
+<style scoped src="@/assets/css/Projects.css"></style>

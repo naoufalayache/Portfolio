@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import '@/assets/css/ProjectCard.css'
 defineProps<{
   category: string
   title: string
@@ -20,9 +19,9 @@ defineProps<{
         {{ category }}
       </span>
 
-      <h2>
+      <h3 class="project-card__title">
         {{ title }}
-      </h2>
+      </h3>
 
       <p>
         {{ description }}
@@ -41,3 +40,5 @@ defineProps<{
     </div>
   </article>
 </template>
+
+<style scoped src="@/assets/css/ProjectCard.css"></style>

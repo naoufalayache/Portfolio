@@ -2,41 +2,34 @@
   min-height: calc(100vh - 90px);
 
   display: grid;
-  grid-template-columns: 0.9fr 2.1fr;
-
-  gap: 60px;
-
+  grid-template-columns: minmax(260px, 0.8fr) minmax(0, 2.6fr);
   align-items: center;
 
-  padding: 70px 4vw;
+  gap: clamp(32px, 3vw, 56px);
+
+  padding: clamp(40px, 4vw, 64px) 4vw;
 }
 
 .projects__intro {
-  max-width: 500px;
+  max-width: 430px;
 }
 
-.eyebrow {
-  display: block;
+.projects__title {
+  max-width: 440px;
 
-  margin-bottom: 20px;
-
-  color: var(--crimson);
-
-  font-size: 0.75rem;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-}
-
-h1 {
   margin: 0;
 
-  font-size: clamp(2.8rem, 4vw, 5rem);
-  line-height: 1;
-  letter-spacing: -0.05em;
+  color: var(--black);
+
+  font-size: clamp(2.2rem, 2.6vw, 3.2rem);
+  line-height: 1.05;
   font-weight: 700;
+  letter-spacing: -0.04em;
+
+  hyphens: manual;
 }
 
-h1 span {
+.projects__title span {
   color: var(--crimson);
 }
 
@@ -44,42 +37,46 @@ h1 span {
   width: 55px;
   height: 2px;
 
-  margin: 30px 0;
+  margin: 28px 0;
 
   background: var(--crimson);
 }
 
 .projects__intro p {
+  max-width: 390px;
+
   margin: 0;
 
-  max-width: 430px;
-
-  font-size: 0.9rem;
-  line-height: 1.8;
+  font-size: clamp(0.78rem, 0.75vw, 0.9rem);
+  line-height: 1.75;
 }
 
 .projects__grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-
-  gap: 20px;
-
   align-items: stretch;
+
+  gap: clamp(14px, 1.2vw, 20px);
 }
 
 @media (max-width: 1200px) {
   .projects {
     grid-template-columns: 1fr;
-
     align-items: flex-start;
   }
 
   .projects__intro {
-    max-width: 700px;
+    max-width: 620px;
+  }
+
+  .projects__title {
+    max-width: 620px;
+
+    font-size: clamp(2.4rem, 5vw, 3.2rem);
   }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 900px) {
   .projects__grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -89,16 +86,30 @@ h1 span {
   .projects {
     min-height: auto;
 
-    gap: 40px;
+    gap: 32px;
 
-    padding: 50px 20px;
+    padding: 40px 20px;
   }
 
-  h1 {
-    font-size: clamp(2.8rem, 13vw, 4.5rem);
+  .projects__title {
+    font-size: clamp(2.1rem, 9vw, 2.8rem);
+  }
+
+  .projects__intro p {
+    font-size: 0.82rem;
   }
 
   .projects__grid {
     grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 400px) {
+  .projects {
+    padding: 32px 16px;
+  }
+
+  .projects__title {
+    font-size: 2.1rem;
   }
 }

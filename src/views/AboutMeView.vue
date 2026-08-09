@@ -11,9 +11,3 @@ import SkillsGrid from '@/components/SkillsGrid.vue'
     <SkillsGrid />
   </main>
 </template>
-
-<style scoped>
-.about {
-  width: 100%;
-}
-</style>
