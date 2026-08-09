@@ -39,5 +39,30 @@
     "skills": {
       "title": "MY SKILLS"
     }
+  },
+  "projects": {
+    "eyebrow": "MY PROJECTS",
+    "title_line1": "Concrete projects,",
+    "title_line2": "varied challenges",
+    "description": "Discover a selection of projects I have had the opportunity to work on. Different environments and challenges that have allowed me to develop my versatility and continuously expand my skills.",
+    "moreInformation": "MORE INFORMATION",
+
+    "sncf": {
+      "category": "HR APPLICATIONS",
+      "title": "SNCF",
+      "description": "Development and modernization of large-scale HR applications used by several hundred thousand users. Migration to AWS, management of technical obsolescence and improvement of access security."
+    },
+
+    "dgac": {
+      "category": "QUALITY & PROJECT MANAGEMENT",
+      "title": "DGAC",
+      "description": "Implementation and standardization of project management rules, quotation reviews and continuous improvement of overall code quality using SonarQube."
+    },
+
+    "agriculture": {
+      "category": "DATA & GIS",
+      "title": "MINISTRY OF AGRICULTURE",
+      "description": "Implementation of data import batch processes, orthophoto management and overall code improvements on business applications."
+    }
   }
 }

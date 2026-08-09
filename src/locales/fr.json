@@ -39,5 +39,30 @@
     "skills": {
       "title": "MES COMPÉTENCES"
     }
+  },
+  "projects": {
+    "eyebrow": "MES PROJETS",
+    "title_line1": "Des projets concrets,",
+    "title_line2": "des problématiques variées",
+    "description": "Découvrez une sélection de projets sur lesquels j'ai eu l'occasion d'intervenir. Des environnements et des enjeux différents qui m'ont permis de développer ma polyvalence et d'enrichir continuellement mes compétences.",
+    "moreInformation": "PLUS D'INFORMATIONS",
+
+    "sncf": {
+      "category": "APPLICATIONS RH",
+      "title": "SNCF",
+      "description": "Développement et modernisation d'applications RH à grande échelle utilisées par plusieurs centaines de milliers d'utilisateurs. Migration vers AWS, gestion des obsolescences techniques et renforcement de la sécurité des accès."
+    },
+
+    "dgac": {
+      "category": "QUALITÉ & GESTION DE PROJET",
+      "title": "DGAC",
+      "description": "Mise en place et normalisation de règles de gestion de projet, revue de devis et amélioration continue de la qualité du code grâce à SonarQube."
+    },
+
+    "agriculture": {
+      "category": "DONNÉES & SIG",
+      "title": "MINISTÈRE DE L'AGRICULTURE",
+      "description": "Mise en place de batchs d'import de données, gestion des orthophotos et amélioration globale du code sur des applications métier."
+    }
   }
 }
