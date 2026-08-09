@@ -14,12 +14,17 @@ import AppHeader from '@/components/AppHeader.vue'
 
 <style scoped>
 .app {
-  height: 100vh;
-  overflow: hidden;
+  min-height: 100vh;
 }
 
 .content {
-  height: calc(100vh - 90px);
+  min-height: calc(100vh - 90px);
+}
+
+@media (max-width: 768px) {
+  .content {
+    min-height: calc(100vh - 70px);
+  }
 }
 </style>
 <script></script>

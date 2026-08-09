@@ -95,6 +95,11 @@
     font-size: 0.85rem;
   }
 
+  .navigation .router-link-active,
+  .mobile-menu .router-link-active {
+    color: var(--chalk);
+  }
+
   .mobile-menu {
     position: absolute;
 

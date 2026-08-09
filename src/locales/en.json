@@ -14,5 +14,23 @@
       "line1": "READY FOR",
       "line2": "NEW PROJECTS"
     }
+  },
+  "about": {
+    "intro": {
+      "title_line1": "ABOUT",
+      "title_line2": "ME",
+      "subtitle": "WHO AM I?",
+      "paragraph1": "Full-Stack Developer with 5 years of experience, I have had the opportunity to work on projects involving a wide range of challenges, from application development and security to cloud technologies, modernization and the evolution of existing solutions.",
+      "paragraph2": "This diversity is what drives me: discovering new environments, understanding their challenges and building appropriate solutions. Curious, versatile and autonomous, I particularly enjoy projects that push me to learn, adapt and take on new technical challenges."
+    },
+    "motivation": {
+      "title": "WHAT DRIVES ME",
+      "paragraph1": "I enjoy building solutions that have a real impact and working on challenges that allow me to continuously expand my knowledge.",
+      "paragraph2": "Continuous learning plays an important role in my career: discovering new technologies, deepening my skills and stepping outside my comfort zone are part of what motivates me every day.",
+      "paragraph3": "One of my next goals is to earn the AWS Certified Cloud Practitioner certification to strengthen and validate my knowledge of cloud technologies."
+    },
+    "skills": {
+      "title": "MY SKILLS"
+    }
   }
 }

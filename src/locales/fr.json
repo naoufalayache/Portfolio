@@ -14,5 +14,23 @@
       "line1": "DISPONIBLE POUR",
       "line2": "DE NOUVEAUX PROJETS"
     }
+  },
+  "about": {
+    "intro": {
+      "title_line1": "À PROPOS",
+      "title_line2": "DE MOI",
+      "subtitle": "QUI SUIS-JE ?",
+      "paragraph1": "Développeur Full-Stack avec 5 ans d'expérience, j'ai eu l'occasion de travailler sur des projets aux enjeux et problématiques très variés, allant du développement applicatif à la sécurité, en passant par le cloud, la modernisation et l'évolution de solutions existantes.",
+      "paragraph2": "C'est cette diversité qui me motive : découvrir de nouveaux contextes, comprendre leurs problématiques et construire des solutions adaptées. Curieux, polyvalent et autonome, j'apprécie particulièrement les projets qui me poussent à apprendre, à m'adapter et à relever de nouveaux défis techniques."
+    },
+    "motivation": {
+      "title": "CE QUI ME MOTIVE",
+      "paragraph1": "J'aime construire des solutions qui ont un impact concret et travailler sur des problématiques qui me permettent d'enrichir continuellement mes connaissances.",
+      "paragraph2": "L'apprentissage continu occupe une place importante dans mon parcours : découvrir de nouvelles technologies, approfondir mes compétences et sortir de ma zone de confort font partie de ce qui me motive au quotidien.",
+      "paragraph3": "Parmi mes prochains objectifs, je souhaite notamment obtenir la certification AWS Certified Cloud Practitioner afin de consolider et valider mes connaissances dans le domaine du cloud."
+    },
+    "skills": {
+      "title": "MES COMPÉTENCES"
+    }
   }
 }

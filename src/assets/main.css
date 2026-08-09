@@ -19,8 +19,6 @@ body,
 }
 
 body {
-  overflow: hidden;
-
   background: var(--chalk);
   color: var(--black);
 
