@@ -2,7 +2,7 @@
 import { ref } from 'vue'
 import { RouterLink } from 'vue-router'
 import LangSwitcher from './LangSwitcher.vue'
-import './../assets/AppHeader.css'
+import '@/assets/css/AppHeader.css'
 
 const menuOpen = ref(false)
 

@@ -1,13 +1,13 @@
 <template>
   <div class="lang-switcher">
     <button :class="{ active: locale === 'fr' }" @click="setLocale('fr')" class="flag-button">
-      <img src="./../assets/flags/FR_flag.svg" alt="France" />
+      <img src="@/assets/flags/FR_flag.svg" alt="France" />
     </button>
 
     <span class="separator">/</span>
 
     <button :class="{ active: locale === 'en' }" @click="setLocale('en')" class="flag-button">
-      <img src="./../assets/flags/UK_flag.svg" alt="English" />
+      <img src="@/assets/flags/UK_flag.svg" alt="English" />
     </button>
   </div>
 </template>

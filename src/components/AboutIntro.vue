@@ -36,5 +36,5 @@
 </template>
 
 <script>
-import './../assets/AboutIntro.css'
+import '@/assets/css/AboutIntro.css'
 </script>

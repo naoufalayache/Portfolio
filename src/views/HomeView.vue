@@ -69,5 +69,5 @@
 </template>
 
 <script>
-import './../assets/HomeView.css'
+import '@/assets/css/HomeView.css'
 </script>
