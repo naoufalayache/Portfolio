@@ -1,4 +1,11 @@
 {
+  "navigation": {
+    "home": "HOME",
+    "about": "ABOUT ME",
+    "projects": "PROJECTS",
+    "experience": "EXPERIENCE",
+    "contact": "CONTACT"
+  },
   "home": {
     "hero": {
       "title_line1": "I design",

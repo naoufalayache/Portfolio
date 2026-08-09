@@ -1,4 +1,11 @@
 {
+  "navigation": {
+    "home": "ACCUEIL",
+    "about": "À PROPOS DE MOI",
+    "projects": "PROJETS",
+    "experience": "EXPÉRIENCE",
+    "contact": "CONTACT"
+  },
   "home": {
     "hero": {
       "title_line1": "Je conçois des",
