@@ -12,7 +12,7 @@
           <span>{{ $t('home.hero.title_highlight') }}</span>
         </h1>
 
-        <NuxtLink to="/aboutMe" class="subtitle">
+        <NuxtLink to="/about" class="subtitle">
           {{ $t('home.hero.aboutMe') }}
         </NuxtLink>
 

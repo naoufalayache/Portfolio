@@ -1,27 +1,30 @@
 export default defineNuxtConfig({
-  modules: [
-    '@nuxtjs/i18n',
-  ],
+  site: {
+    url: "https://naoufal-ayache.dev",
+    name: "Naoufal Ayache",
+  },
+
+  modules: ["@nuxtjs/i18n", "@nuxtjs/sitemap"],
 
   css: [
-    '@fortawesome/fontawesome-free/css/all.min.css',
-    '~/assets/CSS/main.css',
+    "@fortawesome/fontawesome-free/css/all.min.css",
+    "~/assets/CSS/main.css",
   ],
 
   i18n: {
-    strategy: 'prefix_except_default',
-    defaultLocale: 'fr',
+    strategy: "prefix_except_default",
+    defaultLocale: "fr",
 
     locales: [
       {
-        code: 'fr',
-        name: 'Français',
-        file: 'fr.json',
+        code: "fr",
+        name: "Français",
+        file: "fr.json",
       },
       {
-        code: 'en',
-        name: 'English',
-        file: 'en.json',
+        code: "en",
+        name: "English",
+        file: "en.json",
       },
     ],
   },
@@ -30,11 +33,11 @@ export default defineNuxtConfig({
     head: {
       link: [
         {
-          rel: 'icon',
-          type: 'image/x-icon',
-          href: '/favicon.ico',
+          rel: "icon",
+          type: "image/x-icon",
+          href: "/favicon.ico",
         },
       ],
     },
   },
-})
+});

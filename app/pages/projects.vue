@@ -40,12 +40,12 @@ const closeProject = () => {
 <template>
   <section class="projects">
     <div class="projects__intro">
-      <h2 class="projects__title">
+      <h1 class="projects__title">
         {{ $t('projects.title_line1') }}
         {{ $t('projects.title_line2') }}
 
         <span>.</span>
-      </h2>
+      </h1>
 
       <div class="intro-line"></div>
 
