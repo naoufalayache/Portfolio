@@ -13,21 +13,33 @@ const router = createRouter({
       path: '/',
       name: 'home',
       component: HomeView,
+      meta: {
+        titleKey: 'pageTitles.home',
+      },
     },
     {
       path: '/projects',
       name: 'projects',
       component: ProjectsView,
+      meta: {
+        titleKey: 'pageTitles.projects',
+      },
     },
     {
       path: '/contacts',
       name: 'contact',
       component: SocialsView,
+      meta: {
+        titleKey: 'pageTitles.contact',
+      },
     },
     {
       path: '/aboutMe',
       name: 'aboutMe',
       component: AboutMeView,
+      meta: {
+        titleKey: 'pageTitles.about',
+      },
     },
   ],
 })

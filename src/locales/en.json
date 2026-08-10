@@ -1,4 +1,10 @@
 {
+  "pageTitles": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
   "navigation": {
     "home": "HOME",
     "about": "ABOUT ME",
