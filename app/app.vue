@@ -5,8 +5,19 @@
 </template>
 
 <script setup lang="ts">
-useHead({
-   script: [
+
+const i18nHead = useLocaleHead({
+  seo: true
+})
+
+useHead(() => ({
+  htmlAttrs: i18nHead.value.htmlAttrs,
+
+  link: i18nHead.value.link,
+
+  meta: i18nHead.value.meta,
+
+  script: [
     {
       type: 'application/ld+json',
       innerHTML: JSON.stringify({
@@ -26,15 +37,19 @@ useHead({
       }),
     },
   ],
+
   titleTemplate: (title) => {
-    return title ? `${title} | Naoufal Ayache` : "Naoufal Ayache";
+    return title
+      ? `${title} | Naoufal Ayache`
+      : 'Naoufal Ayache'
   },
-});
+}))
+
 useSeoMeta({
   ogType: 'website',
   ogSiteName: 'Naoufal Ayache',
   twitterCard: 'summary_large_image',
-  ogImage: '/OG-map.png',
-  twitterImage: '/OG-map.png',
+  ogImage: 'https://naoufal-ayache.dev/OG-map.png', // Le DNS n'est pas encore acheté
+  twitterImage: 'https://naoufal-ayache.dev/OG-map.png',
 })
 </script>

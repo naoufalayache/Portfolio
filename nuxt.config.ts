@@ -12,17 +12,21 @@ export default defineNuxtConfig({
   ],
 
   i18n: {
+    baseUrl: "https://naoufal-ayache.dev",
+    
     strategy: "prefix_except_default",
     defaultLocale: "fr",
 
     locales: [
       {
         code: "fr",
+        language: 'fr-FR',
         name: "Français",
         file: "fr.json",
       },
       {
         code: "en",
+        language: 'en-US',
         name: "English",
         file: "en.json",
       },

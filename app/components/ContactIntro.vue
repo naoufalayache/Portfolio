@@ -1,7 +1,7 @@
 <style scoped src="@/assets/css/ContactIntro.css"></style>
 <template>
   <section class="contact-intro">
-    <h2 class="contact-intro__title">{{ $t('contact.title') }}<span>.</span></h2>
+    <h1 class="contact-intro__title">{{ $t('contact.title') }}<span>.</span></h1>
 
     <div class="contact-intro__text">
       <p>

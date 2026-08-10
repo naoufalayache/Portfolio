@@ -1,12 +1,12 @@
 <template>
   <section class="about-intro">
     <div class="about-intro__content">
-      <h2>
+      <h1>
         {{ $t('about.intro.title_line1') }}
         <br />
         {{ $t('about.intro.title_line2') }}
         <span>.</span>
-      </h2>
+      </h1>
 
       <div class="about-intro__text">
         <h3>
