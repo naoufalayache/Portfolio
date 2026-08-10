@@ -23,7 +23,7 @@
           </NuxtLink>
 
           <a
-            :href="`${baseURL}CV.pdf`"
+            :href="`${baseURL}${cvPath}`"
             target="_blank"
             rel="noopener noreferrer"
             class="secondary-button cv-button"
