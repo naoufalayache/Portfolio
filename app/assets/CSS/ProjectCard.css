@@ -12,9 +12,27 @@
 
 .project-card__image {
   width: 100%;
-  height: clamp(120px, 10vw, 170px);
+  height: 180px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 18px;
 
   overflow: hidden;
+}
+
+.project-card__image img {
+  width: auto;
+  height: auto;
+
+  max-width: 85%;
+  max-height: 140px;
+
+  object-fit: contain;
+
+  transition: transform 0.3s ease;
 }
 
 .project-card__image img {
