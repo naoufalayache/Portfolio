@@ -5,6 +5,23 @@
     "projects": "Projects",
     "contact": "Contact"
   },
+  "seo": {
+    "home": {
+      "description": "Portfolio of Naoufal Ayache, Full-Stack Developer with 5 years of experience in web application development, Java, PHP, Angular, Vue.js and AWS."
+    },
+    "about": {
+      "description": "Discover the background, skills and motivations of Naoufal Ayache, a Full-Stack Developer with 5 years of experience."
+    },
+    "projects": {
+      "description": "Discover a selection of projects for SNCF, DGAC and the French Ministry of Agriculture involving development, cloud, GIS and project management."
+    },
+    "experience": {
+      "description": "Discover Naoufal Ayache's professional experience in Full-Stack development, project management, cloud and application architecture."
+    },
+    "contact": {
+      "description": "Contact Naoufal Ayache, Full-Stack Developer based in Lyon, to discuss a project or professional opportunity."
+    }
+  },
   "navigation": {
     "home": "HOME",
     "about": "ABOUT ME",

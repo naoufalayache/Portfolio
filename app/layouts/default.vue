@@ -1,13 +1,9 @@
-<script setup lang="ts">
-import AppHeader from '@/components/AppHeader.vue'
-</script>
-
 <template>
   <div class="app">
     <AppHeader />
 
     <main class="content">
-      <RouterView />
+      <slot />
     </main>
   </div>
 </template>
@@ -27,4 +23,3 @@ import AppHeader from '@/components/AppHeader.vue'
   }
 }
 </style>
-<script></script>

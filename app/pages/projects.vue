@@ -8,6 +8,16 @@ import sncfImage from '@/assets/images/SNCF.webp'
 import dgacImage from '@/assets/images/DGAC.webp'
 import agricultureImage from '@/assets/images/agriculture.webp'
 
+const { t } = useI18n()
+
+useSeoMeta({
+  title: () => t('pageTitles.projects'),
+  description: () => t('seo.projects.description'),
+
+  ogTitle: () => `${t('pageTitles.projects')} | Naoufal Ayache`,
+  ogDescription: () => t('seo.projects.description'),
+})
+
 type ProjectId = 'sncf' | 'dgac' | 'agriculture'
 
 const selectedProject = ref<ProjectId | null>(null)

@@ -12,15 +12,15 @@
           <span>{{ $t('home.hero.title_highlight') }}</span>
         </h1>
 
-        <RouterLink to="/aboutMe" class="subtitle">
+        <NuxtLink to="/aboutMe" class="subtitle">
           {{ $t('home.hero.aboutMe') }}
-        </RouterLink>
+        </NuxtLink>
 
         <div class="actions">
-          <RouterLink to="/projects" class="primary-button">
+          <NuxtLink to="/projects" class="primary-button">
             {{ $t('home.actions.projet') }}
             <i class="fa-solid fa-arrow-up-right-from-square actionsLogo"></i>
-          </RouterLink>
+          </NuxtLink>
 
           <a
             :href="cvPath"
@@ -76,9 +76,19 @@
 
 <script setup lang="ts">
 import { computed } from 'vue'
-import { useI18n } from 'vue-i18n'
 
-const { locale } = useI18n()
+const { locale,t } = useI18n()
+
+useSeoMeta({
+  title: () => t('pageTitles.home'),
+  description: () => t('seo.home.description'),
+
+  ogTitle: () => `${t('pageTitles.home')} | Naoufal Ayache`,
+  ogDescription: () => t('seo.home.description'),
+  ogType: 'website',
+
+  twitterCard: 'summary_large_image',
+})
 
 const cvPath = computed(() => {
   return locale.value === 'fr'
