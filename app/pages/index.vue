@@ -92,7 +92,6 @@ useSeoMeta({
 })
 
 const config = useRuntimeConfig()
-const baseURL = config.app.baseURL
 
 const cvPath = computed(() => {
   return locale.value === 'fr'

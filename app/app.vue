@@ -6,14 +6,26 @@
 
 <script setup lang="ts">
 
+import { joinURL } from 'ufo'
+
+const config = useRuntimeConfig()
+
 const i18nHead = useLocaleHead({
   seo: true
 })
 
-useHead(() => ({
-  htmlAttrs: i18nHead.value.htmlAttrs,
 
-  link: i18nHead.value.link,
+useHead(() => ({
+  link: [
+    ...i18nHead.value.link,
+    {
+      rel: 'icon',
+      type: 'image/x-icon',
+      href: joinURL(config.app.baseURL, '/favicon.ico')
+    }
+  ],
+
+  htmlAttrs: i18nHead.value.htmlAttrs,
 
   meta: i18nHead.value.meta,
 
