@@ -72,4 +72,4 @@ const emit = defineEmits<{
   </section>
 </template>
 
-<style scoped src="@/assets/css/ProjectDetails.css"></style>
+<style scoped src="@/assets/CSS/ProjectDetails.css"></style>

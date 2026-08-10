@@ -1,4 +1,4 @@
-<style scoped src="@/assets/css/ContactIntro.css"></style>
+<style scoped src="@/assets/CSS/ContactIntro.css"></style>
 <template>
   <section class="contact-intro">
     <h1 class="contact-intro__title">{{ $t('contact.title') }}<span>.</span></h1>

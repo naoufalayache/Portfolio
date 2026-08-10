@@ -72,7 +72,7 @@
     </filter>
   </svg>
 </template>
-<style scoped src="@/assets/css/HomeView.css"></style>
+<style scoped src="@/assets/CSS/HomeView.css"></style>
 
 <script setup lang="ts">
 import { computed } from 'vue'

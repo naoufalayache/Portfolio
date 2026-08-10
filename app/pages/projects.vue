@@ -96,4 +96,4 @@ const closeProject = () => {
   </section>
 </template>
 
-<style scoped src="@/assets/css/Projects.css"></style>
+<style scoped src="@/assets/CSS/Projects.css"></style>

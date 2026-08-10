@@ -32,7 +32,7 @@ const closeMenu = () => {
   menuOpen.value = false;
 };
 </script>
-<style scoped src="@/assets/css/AppHeader.css"></style>
+<style scoped src="@/assets/CSS/AppHeader.css"></style>
 <template>
   <header class="header">
     <NuxtLink to="/" class="logo" @click="closeMenu">

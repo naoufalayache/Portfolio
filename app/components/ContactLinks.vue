@@ -78,4 +78,4 @@ const contacts: ContactItem[] = [
     </div>
   </section>
 </template>
-<style scoped src="@/assets/css/ContactLinks.css"></style>
+<style scoped src="@/assets/CSS/ContactLinks.css"></style>

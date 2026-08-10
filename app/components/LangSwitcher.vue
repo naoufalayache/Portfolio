@@ -7,7 +7,7 @@ const changeLocale = async (lang: Locale) => {
   await setLocale(lang)
 }
 </script>
-<style scoped src="@/assets/css/LangSwitcher.css"></style>
+<style scoped src="@/assets/CSS/LangSwitcher.css"></style>
 <template>
   <div class="lang-switcher">
     <button

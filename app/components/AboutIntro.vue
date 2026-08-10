@@ -34,4 +34,4 @@
     </div>
   </section>
 </template>
-<style scoped src="@/assets/css/AboutIntro.css"></style>
+<style scoped src="@/assets/CSS/AboutIntro.css"></style>

@@ -13,7 +13,7 @@ useSeoMeta({
 })
 </script>
 
-<style scoped src="@/assets/css/SocialLinks.css"></style>
+<style scoped src="@/assets/CSS/SocialLinks.css"></style>
 
 <template>
   <main class="contact-page">
