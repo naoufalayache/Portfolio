@@ -23,7 +23,7 @@
           </RouterLink>
 
           <a
-            href="/CV-AYACHE_Naoufal_2026.pdf"
+            :href="cvPath"
             target="_blank"
             rel="noopener noreferrer"
             class="secondary-button cv-button"
@@ -73,3 +73,16 @@
   </svg>
 </template>
 <style scoped src="@/assets/css/HomeView.css"></style>
+
+<script setup lang="ts">
+import { computed } from 'vue'
+import { useI18n } from 'vue-i18n'
+
+const { locale } = useI18n()
+
+const cvPath = computed(() => {
+  return locale.value === 'fr'
+    ? '/CV-AYACHE_Naoufal_2026_(FR).pdf'
+    : '/CV-AYACHE_Naoufal_2026_(EN).pdf'
+})
+</script>
