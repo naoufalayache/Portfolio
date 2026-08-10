@@ -46,22 +46,41 @@
     "description": "Découvrez une sélection de projets sur lesquels j'ai eu l'occasion d'intervenir. Des environnements et des enjeux différents qui m'ont permis de développer ma polyvalence et d'enrichir continuellement mes compétences.",
     "moreInformation": "PLUS D'INFORMATIONS",
 
+    "details": {
+      "context": "CONTEXTE",
+      "interventions": "MES INTERVENTIONS",
+      "technologies": "TECHNOLOGIES/COMPÉTENCES",
+      "close": "FERMER"
+    },
+
     "sncf": {
       "category": "APPLICATIONS RH",
       "title": "SNCF",
-      "description": "Développement et modernisation d'applications RH à grande échelle utilisées par plusieurs centaines de milliers d'utilisateurs. Migration vers AWS, gestion des obsolescences techniques et renforcement de la sécurité des accès."
+      "description": "Développement et modernisation d'applications RH à grande échelle utilisées par plusieurs centaines de milliers d'utilisateurs. Migration vers AWS, gestion des obsolescences techniques et renforcement de la sécurité des accès.",
+      "details": {
+        "context": "Au sein de CGI, j'interviens pour la SNCF sur plusieurs applications RH à grande échelle, utilisées par plusieurs centaines de milliers d'utilisateurs, agents et membres de leurs familles.",
+        "interventions": "J'ai participé à la modernisation de ces applications en contribuant à leur migration vers AWS et à la gestion des obsolescences techniques, notamment sur Java, Angular et Docker. J'ai également conçu et déployé un système d'authentification multi-facteurs avec OTP et gestion des appareils de confiance afin de renforcer la sécurité des accès."
+      }
     },
 
     "dgac": {
       "category": "QUALITÉ & GESTION DE PROJET",
       "title": "DGAC",
-      "description": "Mise en place et normalisation de règles de gestion de projet, revue de devis et amélioration continue de la qualité du code grâce à SonarQube."
+      "description": "Mise en place et normalisation de règles de gestion de projet, revue de devis et amélioration continue de la qualité du code grâce à SonarQube.",
+      "details": {
+        "context": "Souhaitant mettre à profit ma formation en gestion de projet et élargir mon expérience au-delà du développement, j'ai volontairement évolué vers davantage de responsabilités de pilotage au sein d'une mission pour la DGAC. J'y ai occupé un rôle hybride, à l'interface entre gestion de projet, expertise technique et accompagnement des équipes.",
+        "interventions": "J'ai contribué à harmoniser et structurer les processus de travail entre les différentes équipes, notamment en réorganisant le suivi quotidien des activités et des points d'avancement. J'ai assuré le suivi des évolutions, anomalies, défauts et demandes de services, tout en apportant un soutien technique aux équipes et en participant aux échanges avec le client. J'ai également contribué à l'élaboration et à la revue des devis, avec une attention portée à leur cohérence fonctionnelle et technique. Cette mission m'a ainsi permis d'assumer un rôle transversal mêlant responsabilités de chef de projet, expertise technique et problématiques d'architecture."
+      }
     },
 
     "agriculture": {
       "category": "DONNÉES & SIG",
       "title": "MINISTÈRE DE L'AGRICULTURE",
-      "description": "Mise en place de batchs d'import de données, gestion des orthophotos et amélioration globale du code sur des applications métier."
+      "description": "Mise en place de batchs d'import de données, gestion des orthophotos et amélioration globale du code sur des applications métier.",
+      "details": {
+        "context": "J'ai rejoint récemment un projet du Ministère de l'Agriculture reposant sur une application historique, principalement développée en Java 8. La maintenance de ce système représente un défi important en raison de son ancienneté, de certaines limitations techniques et d'une documentation devenue partielle au fil des années. Mes premières interventions ont principalement porté sur l'analyse et la résolution de défauts, anomalies et demandes de services, nécessitant une compréhension progressive d'un système complexe et peu optimisé.",
+        "interventions": "J'ai ensuite pris en charge le pilotage technique d'une évolution majeure autour du système d'information géographique (SIG), avec deux développeurs et un testeur. Les travaux comprenaient la création d'un batch d'import de parcelles cadastrales, l'intégration et la gestion de nouvelles couches cartographiques ainsi que la gestion des orthophotographies. L'ajout de nouvelles couches n'ayant pas été réalisé depuis 2015 et une partie de la documentation ayant été perdue, nous avons dû reconstruire une partie importante de la connaissance technique du système. J'ai ainsi mené plusieurs travaux de rétro-ingénierie afin de comprendre son architecture et son fonctionnement, puis de définir et coordonner la mise en œuvre de la solution."
+      }
     }
   },
   "contact": {

@@ -6,6 +6,10 @@ defineProps<{
   image: string
   technologies: string[]
 }>()
+
+const emit = defineEmits<{
+  more: []
+}>()
 </script>
 
 <template>
@@ -33,8 +37,9 @@ defineProps<{
         </span>
       </div>
 
-      <button class="project-card__button" type="button">
+      <button class="project-card__button" type="button" @click="emit('more')">
         {{ $t('projects.moreInformation') }}
+
         <i class="fa-solid fa-arrow-right"></i>
       </button>
     </div>

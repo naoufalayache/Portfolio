@@ -46,22 +46,41 @@
     "description": "Discover a selection of projects I have had the opportunity to work on. Different environments and challenges that have allowed me to develop my versatility and continuously expand my skills.",
     "moreInformation": "MORE INFORMATION",
 
+    "details": {
+      "context": "CONTEXT",
+      "interventions": "MY CONTRIBUTIONS",
+      "technologies": "TECHNOLOGIES/SKILLS",
+      "close": "CLOSE"
+    },
+
     "sncf": {
       "category": "HR APPLICATIONS",
       "title": "SNCF",
-      "description": "Development and modernization of large-scale HR applications used by several hundred thousand users. Migration to AWS, management of technical obsolescence and improvement of access security."
+      "description": "Development and modernization of large-scale HR applications used by several hundred thousand users. Migration to AWS, management of technical obsolescence and improvement of access security.",
+      "details": {
+        "context": "As part of my work at CGI, I contribute to several large-scale HR applications for SNCF, used by several hundred thousand users, including employees and their families.",
+        "interventions": "I have contributed to the modernization of these applications, including their migration to AWS and the management of technical obsolescence across Java, Angular and Docker. I also designed and deployed a multi-factor authentication system using OTP and trusted device management to strengthen access security."
+      }
     },
 
     "dgac": {
       "category": "QUALITY & PROJECT MANAGEMENT",
       "title": "DGAC",
-      "description": "Implementation and standardization of project management rules, quotation reviews and continuous improvement of overall code quality using SonarQube."
+      "description": "Implementation and standardization of project management rules, quotation reviews and continuous improvement of overall code quality using SonarQube.",
+      "details": {
+        "context": "Looking to leverage my background in project management and broaden my experience beyond software development, I deliberately took on greater project management responsibilities during an assignment for the French Civil Aviation Authority (DGAC). I worked in a hybrid role combining project coordination, technical expertise and team support.",
+        "interventions": "I contributed to harmonizing and structuring working processes across multiple teams, notably by reorganizing daily activity tracking and progress meetings. I coordinated the follow-up of enhancements, anomalies, defects and service requests, while providing technical support to the teams and participating in discussions with the client. I also contributed to preparing and reviewing project estimates, with a focus on both functional and technical consistency. This assignment allowed me to take on a cross-functional role combining project management responsibilities, technical expertise and architectural considerations."
+      }
     },
 
     "agriculture": {
       "category": "DATA & GIS",
       "title": "MINISTRY OF AGRICULTURE",
-      "description": "Implementation of data import batch processes, orthophoto management and overall code improvements on business applications."
+      "description": "Implementation of data import batch processes, orthophoto management and overall code improvements on business applications.",
+      "details": {
+        "context": "I recently joined a project for the French Ministry of Agriculture based on a legacy application primarily developed in Java 8. Maintaining this system presents significant challenges due to its age, technical limitations and documentation that has become incomplete over the years. My initial work mainly focused on analyzing and resolving defects, incidents and service requests, requiring me to progressively build an understanding of a complex and poorly optimized system.",
+        "interventions": "I then took technical ownership of a major enhancement involving the Geographic Information System (GIS), coordinating the work of two developers and a tester. The project included the development of a batch process for importing cadastral parcel data, the integration and management of new map layers, and orthophoto management. As no new layers had been introduced since 2015 and part of the original documentation had been lost, we had to rebuild a significant portion of the system's technical knowledge. I therefore carried out reverse-engineering work to understand its architecture and behavior, before defining and coordinating the implementation of the solution."
+      }
     }
   },
   "contact": {
@@ -73,7 +92,9 @@
       "line3": "OR SIMPLY WANT TO TALK?",
       "cta": "LET'S TALK"
     },
+
     "availability": "AVAILABLE FOR NEW OPPORTUNITIES",
+
     "links": {
       "email": "EMAIL",
       "linkedin": "LINKEDIN",

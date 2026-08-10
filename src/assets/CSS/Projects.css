@@ -10,6 +10,34 @@
   padding: clamp(40px, 4vw, 64px) 4vw;
 }
 
+.projects__content {
+  min-width: 0;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.project-details-enter-active,
+.project-details-leave-active {
+  transition:
+    opacity 0.3s ease,
+    transform 0.3s ease;
+}
+
+.project-details-enter-from,
+.project-details-leave-to {
+  opacity: 0;
+
+  transform: translateY(-15px);
+}
+
+.project-details-enter-to,
+.project-details-leave-from {
+  opacity: 1;
+
+  transform: translateY(0);
+}
+
 .projects__intro {
   max-width: 430px;
 }
