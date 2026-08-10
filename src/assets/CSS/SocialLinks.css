@@ -1,0 +1,37 @@
+.contact-page {
+  min-height: calc(100vh - 90px);
+
+  display: grid;
+  grid-template-columns: minmax(280px, 0.8fr) minmax(0, 1.4fr);
+  align-items: center;
+
+  gap: clamp(60px, 8vw, 150px);
+
+  padding: clamp(60px, 6vw, 100px) 5vw;
+}
+
+@media (max-width: 1000px) {
+  .contact-page {
+    grid-template-columns: 1fr;
+
+    gap: 60px;
+
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-page {
+    min-height: calc(100vh - 70px);
+
+    gap: 45px;
+
+    padding: 55px 20px;
+  }
+}
+
+@media (max-width: 400px) {
+  .contact-page {
+    padding: 45px 16px;
+  }
+}

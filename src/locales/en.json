@@ -63,5 +63,23 @@
       "title": "MINISTRY OF AGRICULTURE",
       "description": "Implementation of data import batch processes, orthophoto management and overall code improvements on business applications."
     }
+  },
+  "contact": {
+    "title": "CONTACT",
+
+    "intro": {
+      "line1": "AN IDEA?",
+      "line2": "A PROJECT?",
+      "line3": "OR SIMPLY WANT TO TALK?",
+      "cta": "LET'S TALK"
+    },
+    "availability": "AVAILABLE FOR NEW OPPORTUNITIES",
+    "links": {
+      "email": "EMAIL",
+      "linkedin": "LINKEDIN",
+      "github": "GITHUB",
+      "location": "LOCATION",
+      "mon_linkedin": "My Linkedin"
+    }
   }
 }

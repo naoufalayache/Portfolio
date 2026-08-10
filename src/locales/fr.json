@@ -63,5 +63,25 @@
       "title": "MINISTÈRE DE L'AGRICULTURE",
       "description": "Mise en place de batchs d'import de données, gestion des orthophotos et amélioration globale du code sur des applications métier."
     }
+  },
+  "contact": {
+    "title": "CONTACT",
+
+    "intro": {
+      "line1": "UNE IDÉE ?",
+      "line2": "UN PROJET ?",
+      "line3": "OU SIMPLEMENT ENVIE D'ÉCHANGER ?",
+      "cta": "DISCUTONS-EN"
+    },
+
+    "availability": "DISPONIBLE POUR DE NOUVELLES OPPORTUNITÉS",
+
+    "links": {
+      "email": "EMAIL",
+      "linkedin": "LINKEDIN",
+      "github": "GITHUB",
+      "location": "LOCALISATION",
+      "mon_linkedin": "Mon Linkedin"
+    }
   }
 }

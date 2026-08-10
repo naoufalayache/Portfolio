@@ -1,0 +1,32 @@
+<style scoped src="@/assets/css/ContactIntro.css"></style>
+<template>
+  <section class="contact-intro">
+    <h2 class="contact-intro__title">{{ $t('contact.title') }}<span>.</span></h2>
+
+    <div class="contact-intro__text">
+      <p>
+        {{ $t('contact.intro.line1') }}
+      </p>
+
+      <p>
+        {{ $t('contact.intro.line2') }}
+      </p>
+
+      <p>
+        {{ $t('contact.intro.line3') }}
+      </p>
+    </div>
+
+    <p class="contact-intro__cta">{{ $t('contact.intro.cta') }}<span>.</span></p>
+
+    <div class="contact-intro__line"></div>
+
+    <div class="contact-intro__availability">
+      <span class="availability-dot"></span>
+
+      <span>
+        {{ $t('contact.availability') }}
+      </span>
+    </div>
+  </section>
+</template>
