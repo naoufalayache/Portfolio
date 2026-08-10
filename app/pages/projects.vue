@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref } from 'vue'
+import { onBeforeUnmount, onMounted, ref, watch } from 'vue'
 
 import ProjectCard from '@/components/ProjectCard.vue'
 import ProjectDetails from '@/components/ProjectDetails.vue'
@@ -22,19 +22,62 @@ type ProjectId = 'sncf' | 'dgac' | 'agriculture'
 
 const selectedProject = ref<ProjectId | null>(null)
 
+const isMobile = ref(false)
+
 const technologies: Record<ProjectId, string[]> = {
   sncf: ['Java', 'Angular', 'AWS', 'Docker'],
   dgac: ['SonarQube', 'Qualité', 'Gestion de projet'],
   agriculture: ['Java', 'Batch', 'SIG', 'SQL'],
 }
 
+const updateIsMobile = () => {
+  isMobile.value = window.innerWidth <= 768
+}
+
 const toggleProject = (projectId: ProjectId) => {
-  selectedProject.value = selectedProject.value === projectId ? null : projectId
+  selectedProject.value =
+    selectedProject.value === projectId
+      ? null
+      : projectId
 }
 
 const closeProject = () => {
   selectedProject.value = null
 }
+
+const handleEscape = (event: KeyboardEvent) => {
+  if (event.key === 'Escape' && selectedProject.value && isMobile.value) {
+    closeProject()
+  }
+}
+
+watch(
+  [selectedProject, isMobile],
+  ([project, mobile]) => {
+    if (!import.meta.client) {
+      return
+    }
+
+    document.body.style.overflow =
+      project && mobile
+        ? 'hidden'
+        : ''
+  }
+)
+
+onMounted(() => {
+  updateIsMobile()
+
+  window.addEventListener('resize', updateIsMobile)
+  document.addEventListener('keydown', handleEscape)
+})
+
+onBeforeUnmount(() => {
+  window.removeEventListener('resize', updateIsMobile)
+  document.removeEventListener('keydown', handleEscape)
+
+  document.body.style.overflow = ''
+})
 </script>
 
 <template>
@@ -86,12 +129,30 @@ const closeProject = () => {
 
       <Transition name="project-details">
         <ProjectDetails
-          v-if="selectedProject"
+          v-if="selectedProject && !isMobile"
           :project-id="selectedProject"
           :technologies="technologies[selectedProject]"
           @close="closeProject"
         />
       </Transition>
+
+      <Teleport to="body">
+        <Transition name="project-modal">
+          <div
+            v-if="selectedProject && isMobile"
+            class="project-modal"
+            @click.self="closeProject"
+          >
+            <div class="project-modal__content">
+              <ProjectDetails
+                :project-id="selectedProject"
+                :technologies="technologies[selectedProject]"
+                @close="closeProject"
+              />
+            </div>
+          </div>
+        </Transition>
+      </Teleport>
     </div>
   </section>
 </template>
