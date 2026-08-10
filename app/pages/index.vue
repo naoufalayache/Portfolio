@@ -23,7 +23,7 @@
           </NuxtLink>
 
           <a
-            :href="`${baseURL}${cvPath}`"
+            :href="`${cvUrl}`"
             target="_blank"
             rel="noopener noreferrer"
             class="secondary-button cv-button"
@@ -76,6 +76,7 @@
 
 <script setup lang="ts">
 import { computed } from 'vue'
+import { joinURL } from 'ufo'
 
 const { locale,t } = useI18n()
 
@@ -98,4 +99,9 @@ const cvPath = computed(() => {
     ? '/CV-AYACHE_Naoufal_2026_(FR).pdf'
     : '/CV-AYACHE_Naoufal_2026_(EN).pdf'
 })
+
+const cvUrl = computed(() => {
+  return joinURL(config.app.baseURL, cvPath.value)
+})
+
 </script>
