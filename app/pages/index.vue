@@ -23,7 +23,7 @@
           </NuxtLink>
 
           <a
-            :href="cvPath"
+            :href="`${baseURL}CV.pdf`"
             target="_blank"
             rel="noopener noreferrer"
             class="secondary-button cv-button"
@@ -89,6 +89,9 @@ useSeoMeta({
 
   twitterCard: 'summary_large_image',
 })
+
+const config = useRuntimeConfig()
+const baseURL = config.app.baseURL
 
 const cvPath = computed(() => {
   return locale.value === 'fr'
