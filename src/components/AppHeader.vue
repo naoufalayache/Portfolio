@@ -30,10 +30,6 @@ const closeMenu = () => {
         {{ $t('navigation.projects') }}
       </RouterLink>
 
-      <RouterLink to="/experience">
-        {{ $t('navigation.experience') }}
-      </RouterLink>
-
       <RouterLink to="/contacts">
         {{ $t('navigation.contact') }}
       </RouterLink>
