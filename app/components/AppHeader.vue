@@ -19,10 +19,6 @@ const navigation = [
     label: "navigation.projects",
   },
   {
-    path: "/experience",
-    label: "navigation.experience",
-  },
-  {
     path: "/contact",
     label: "navigation.contact",
   },

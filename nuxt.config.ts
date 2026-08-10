@@ -5,7 +5,7 @@ export default defineNuxtConfig({
 
   css: [
     '@fortawesome/fontawesome-free/css/all.min.css',
-    '~/app/assets/CSS/main.css',
+    '~/assets/CSS/main.css',
   ],
 
   i18n: {
