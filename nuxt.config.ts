@@ -11,22 +11,28 @@ export default defineNuxtConfig({
     "~/assets/CSS/main.css",
   ],
 
+  nitro: {
+    prerender: {
+      routes: ["/404.html"],
+    },
+  },
+
   i18n: {
     baseUrl: "https://naoufal-ayache.dev",
-    
+
     strategy: "prefix_except_default",
     defaultLocale: "fr",
 
     locales: [
       {
         code: "fr",
-        language: 'fr-FR',
+        language: "fr-FR",
         name: "Français",
         file: "fr.json",
       },
       {
         code: "en",
-        language: 'en-US',
+        language: "en-US",
         name: "English",
         file: "en.json",
       },
