@@ -22,7 +22,12 @@
             <i class="fa-solid fa-arrow-up-right-from-square actionsLogo"></i>
           </RouterLink>
 
-          <a href="/cv.pdf" target="_blank" class="secondary-button">
+          <a
+            href="/CV-AYACHE_Naoufal_2026.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="secondary-button cv-button"
+          >
             {{ $t('home.actions.CV') }} <i class="fa-solid fa-arrow-down actionsLogo"></i>
           </a>
         </div>

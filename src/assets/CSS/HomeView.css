@@ -5,9 +5,26 @@
   align-items: center;
 }
 
+.secondary-button.cv-button {
+  border: 1px solid var(--black);
+
+  justify-content: center;
+
+  padding: 15px;
+
+  transition:
+    border-color 0.2s ease,
+    color 0.2s ease;
+}
+
+.cv-button:hover {
+  border-color: var(--crimson);
+  color: var(--crimson);
+}
+
 .actions {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 40px;
   margin-top: 40px;
 }
@@ -164,6 +181,14 @@ h1 span {
   font-style: italic;
 }
 
+@media (max-width: 520px) {
+  .actions {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+  }
+}
+
 @media (max-width: 768px) {
   .marker-circle {
     display: none;
@@ -180,5 +205,10 @@ h1 span {
   .hero-marker,
   .hero-right {
     display: none;
+  }
+
+  .primary-button,
+  .secondary-button {
+    width: 100%;
   }
 }
