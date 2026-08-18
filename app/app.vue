@@ -61,7 +61,7 @@ useSeoMeta({
   ogType: 'website',
   ogSiteName: 'Naoufal Ayache',
   twitterCard: 'summary_large_image',
-  ogImage: 'https://naoufal-ayache.dev/OG-map.png', // Le DNS n'est pas encore acheté
-  twitterImage: 'https://naoufal-ayache.dev/OG-map.png',
+  ogImage: 'https://naoufalayache.github.io/Portfolio/OG-map.png', // Le DNS n'est pas encore acheté
+  twitterImage: 'https://naoufalayache.github.io/Portfolio/OG-map.png',
 })
 </script>
